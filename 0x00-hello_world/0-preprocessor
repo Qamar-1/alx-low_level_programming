@@ -1,3 +1,2 @@
 #!/bin/bash
 cpp your_program.c > output.c
-
