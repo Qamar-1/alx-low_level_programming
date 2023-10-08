@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  *main - main block
  * Size of C data types
- * Return: 0
+ * Return: `i`i
  */
 int main(void)
 {
