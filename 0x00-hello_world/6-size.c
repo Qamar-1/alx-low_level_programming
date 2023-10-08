@@ -1,10 +1,9 @@
 #include <stdio.h>
 /*
- *  * main - main block
- *   * Return: 0
- * 
- *   
- **/
+ *main - main block
+ * Size of C data types
+ * Return: 0
+ */
 int main(void)
 {
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
