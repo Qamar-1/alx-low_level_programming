@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  *main - calls other functions
  *This code prints all English alphabets in lower case
