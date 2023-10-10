@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *main - calls other functions
- *This code prints all English alphabets in lower case
- *Author- Qamar
- *Return: 0 always success
- */
+*main - calls other functions
+*This code prints all English alphabets in lower case
+*Author- Qamar
+*Return: 0 always success
+*/
 int main(void)
 {
 char alphabet = 'a';
