@@ -6,6 +6,10 @@
 *Author- Qamar
 *Return: void
 */
+
+/**
+ *print_alphabet - Prints the lowercase English alphabet followed by a newline
+ */
 void print_alphabet(void)
 {
 char i;
