@@ -1,1 +1,1 @@
-This repository contains my earliest low level progrmming scripts 
+0x02. C - Functions, nested loops project directory
