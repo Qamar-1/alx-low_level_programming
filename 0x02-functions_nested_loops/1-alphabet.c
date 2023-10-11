@@ -1,16 +1,17 @@
-#include <main.h>
+#include "<main.h>"
 /**
-*main - Entry point | calls other functions
+*print_alphabet
 *This code prints all English alphabets in lower case!
 *Author- Qamar
-*Return: 0  success
+*Return: void
 */
 void print_alphabet(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+char i;
+
+for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(letter);
+_putchar(i);
 }
 _putchar('\n');
 }
