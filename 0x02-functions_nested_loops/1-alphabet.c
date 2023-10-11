@@ -1,4 +1,5 @@
-#include "<main.h>"
+#include "main.h"
+
 /**
 *print_alphabet
 *This code prints all English alphabets in lower case!
