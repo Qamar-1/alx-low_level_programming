@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
-*print_alphabet
-*This code prints all English alphabets in lower case!
+*print_alphabet - prints all alphabet in lower case
+*and new line
 *Author- Qamar
 *Return: void
 */
-
-/**
- *print_alphabet - Prints the lowercase English alphabet followed by a newline
- */
 void print_alphabet(void)
 {
 char i;
