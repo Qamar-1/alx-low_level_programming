@@ -1,4 +1,4 @@
-#include "<main.h>"
+#include <main.h>
 /**
 *main - Entry point | calls other functions
 *This code prints all English alphabets in lower case!
