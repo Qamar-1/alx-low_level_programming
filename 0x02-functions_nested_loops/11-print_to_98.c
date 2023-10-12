@@ -20,7 +20,7 @@ printf(", ");
 if (n > 98)
 {
 printf(", ");
-} n++
+} n++;
 }
 }
 else
