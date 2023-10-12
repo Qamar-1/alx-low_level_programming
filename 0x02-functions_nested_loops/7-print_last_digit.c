@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
 *print_last_digit-prints the past digit of the given number
