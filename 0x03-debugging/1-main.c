@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main - causes an infinite loop
-* printf - prints to console
 * Author- Qamar
 * Return: 0 success
 */
@@ -18,7 +18,7 @@ i = 0;
  * putchar(i);
  * }
  */
-/* Description: This string represents an emoticon: \o/ */
+ /* @\\o/\n:  This string represents an emoticon: \o/ */
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
