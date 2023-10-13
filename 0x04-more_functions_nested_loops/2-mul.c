@@ -1,5 +1,6 @@
+#include "main.h"
 /**
- * mul: multiplies 2 numbers
+ * mul - multiplies 2 numbers
  * @a: first number
  * @b: second number
  * Author- Qamar
@@ -8,5 +9,5 @@
 int mul(int a, int b)
 {
 int result = a * b;
-return result;
+return (result);
 }
