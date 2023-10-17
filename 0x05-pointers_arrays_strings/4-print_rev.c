@@ -1,24 +1,25 @@
 #include "main.h"
 /**
  *print_rev - the fuction created
- *@s - the string to be printed
- *This function prints all the string
- *characters and in reverse 
+ *@s : the string to be printed
+ *This function prints all the string characters and in reverse
  *Author- Qamar
  *Return: 0  success
  */
-void print_rev(char *s) {
-
+void print_rev(char *s)
+{
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
 }
 i--;
-for (; i >= 0; i--){
-if (i == 0){
+for (; i >= 0; i--)
+{
+if (i == -1)
+{
 _putchar('\n');
 }
-else 
+else
 _putchar(s[i]);
 }
 }
