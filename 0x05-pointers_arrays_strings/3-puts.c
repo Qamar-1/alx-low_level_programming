@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *void _puts - prints a string
  *This code prints all the characters of a string
