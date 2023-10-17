@@ -21,5 +21,6 @@ _putchar('\n');
 }
 else
 _putchar(s[i]);
+_putchar('\n');
 }
 }
