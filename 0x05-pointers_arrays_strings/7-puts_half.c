@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _strlen - get the length of a string
  * @s: string to get length
  * Author: Qamar
