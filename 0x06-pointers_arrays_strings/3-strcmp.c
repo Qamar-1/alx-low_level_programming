@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _strcmp - compares two strings
  * @s1: first string.
@@ -6,6 +6,7 @@ nclude "main.h"
  * Return: 0 if s1 and s2 are equals,
  * another number if not.
  */
+
 
 
 int _strcmp(char *s1, char *s2)
@@ -19,5 +20,6 @@ break;
 op = *(s1 + i) - *(s2 + i);
 i++;
 }
+
 return (op);
 }
