@@ -16,7 +16,9 @@ for (j = 0; *(accept + j) != '\0'; j++)
 {
 if (*(s + i) == *(accept + j))
 {
-bool = break;														}
+bool =0;
+break;														}
+}
 }
 if (bool == 1)
 break;
