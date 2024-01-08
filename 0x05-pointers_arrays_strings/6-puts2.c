@@ -8,14 +8,11 @@
 
 void puts2(char *str)
 {
-char *cpy;
 int i;
-
-cpy = str;
 i = 0;
-while (cpy[i] != '\0')
+while (str[i] != '\0')
 {
-_putchar(*(cpy + i));
+_putchar(*(str + i));
 i += 2;
 }
 _putchar('\n');
