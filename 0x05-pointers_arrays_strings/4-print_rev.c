@@ -1,4 +1,4 @@
-#include "main.h"
+iinclude "main.h"
 /**
  *print_rev - the fuction created
  *@s : the string to be printed
@@ -9,18 +9,11 @@
 void print_rev(char *s)
 {
 int i;
-for (i = 0; s[i] != '\0'; i++)
-{
-}
+for (i = 0; s[i] != '\0'; i++); 
+// The pointer now points to the null character
 i--;
+//The pointer now points to the last char of the string
 for (; i >= 0; i--)
-{
-if (i == -1)
-{
-_putchar('\n');
-}
-else
 _putchar(s[i]);
-}
 _putchar('\n');
 }
