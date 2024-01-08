@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  *_strlen -This is   to check the last string character
  *@s :the string to be
@@ -17,11 +16,4 @@ length++;
 }
 return (length);
 }
-int main()
-{
-char str[20] = "Ramadan's coming";
-int ans = _strlen(str);
-printf("%d", ans);
 
-
-}
