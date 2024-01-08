@@ -9,11 +9,11 @@
 void print_rev(char *s)
 {
 int i;
-for (i = 0; s[i] != '\0'; i++); 
-/** The pointer now points to the null character
+for (i = 0; s[i] != '\0'; i++);
+/* The pointer now points to the null character
  */
 i--;
-/**The pointer now points to the last char of the string
+/*The pointer now points to the last char of the string
  */
 for (; i >= 0; i--)
 _putchar(s[i]);
