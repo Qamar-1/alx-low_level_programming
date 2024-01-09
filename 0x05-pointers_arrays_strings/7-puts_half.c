@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
-void half(char *s)
+void puts_half(char *s)
 {
 int n;
 if (_strlen(s) % 2 != 0)
