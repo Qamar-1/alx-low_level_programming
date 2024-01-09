@@ -1,4 +1,4 @@
-#include "main.h"
+::nclude "main.h"
 /**
  * _puts - prints a string
  *@str: The char to be printed

@@ -1,4 +1,6 @@
 #include "main.h"
+#include "_putchar.c"
+#include <stdio.h>
 /**
  * puts2 - prints every second character of a string
  * @str: string to print
@@ -9,15 +11,13 @@
 void puts2(char *str)
 {
 int i;
-for (i = 0; str[i] != '\0';i+2)
+for (i = 0; str[i] != '\0';i+=2)  // loop skips a char in each iteration
 _putchar(str[i]);
-}
 _putchar('\n');
 }
 int main()
 {
-char str = "0123456789";
-char r = puts2(str);
-printf("%s\n ", r);
+char str[] = "amsterdam";
+puts2(str);
 
 }
