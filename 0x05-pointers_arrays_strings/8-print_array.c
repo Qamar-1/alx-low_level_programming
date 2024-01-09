@@ -21,9 +21,3 @@ printf("%d", a[i]);
 
 
 }
-int main()
-{
-int arr[] = {1,2,3,4,5,6,7,8};
- print_array(arr, 4);
-
-}
