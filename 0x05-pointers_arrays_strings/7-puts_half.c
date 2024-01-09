@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
+#include "_strlen.c"
 void puts_half(char *s)
 {
 int n;
