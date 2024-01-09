@@ -13,7 +13,4 @@ for (i = 0; s[i] != '\0'; i++)
 length++;
 return (length);
 }
-int main()
-{
-return (0);
-}
+
