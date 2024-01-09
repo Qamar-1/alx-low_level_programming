@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 #include <stdio.h>
 /**
  * puts2 - prints every second character of a string
