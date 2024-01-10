@@ -18,6 +18,5 @@ if (i < (n - 1))
       printf("%d, ", a[i]);
 else
 	printf("%d\n",a[i]);
-return (0);
 }
 }
