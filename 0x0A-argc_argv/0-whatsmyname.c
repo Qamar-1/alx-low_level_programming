@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- main - Entry point | calls other functions.
+ * main - Prints its name followed by a newline
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line arguments.
  * Return: 0 - success.
