@@ -1,8 +1,8 @@
 /**
- main - Entry point | calls other functions
- *This code prints its own name
- *Author- Qamar
- *Return: 0  success
+ main - Entry point | calls other functions.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
 #include<stdio.h>
 int main(__attribute__((unused)) int argc, __attribute__((unused)) char *argv[])
