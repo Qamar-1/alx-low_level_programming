@@ -6,7 +6,7 @@ unsigned int i;
 char* arr;
 if (size == 0)
 return NULL;
-arr = (char*)malloc(size + 1);
+arr = (char*)malloc(size);
 if (arr == NULL)
 return NULL;
 for (i = 0; i < size; i++)
