@@ -1,3 +1,5 @@
+#include "main.h"
+#include <stdlib.h>
 /**
  * _strdup - Duplicates a string.
  * @str: The input string to duplicate.
