@@ -18,6 +18,6 @@ for (i = 0; i < len; i++)
 {
 *(new + i) = str[i];
 }
-new[i] = '/0';
+new[i] = NULL;
 return new;
 }
