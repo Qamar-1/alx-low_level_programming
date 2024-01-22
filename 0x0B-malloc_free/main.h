@@ -8,7 +8,7 @@ char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 void _putchar(char c);
-int _strlen(const char *str);
+int _strlen(char *s);
 
 #endif 
 
