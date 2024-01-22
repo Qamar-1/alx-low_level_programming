@@ -11,6 +11,10 @@ int i;
 int s1_length = strlen(s1);
 int s2_length = strlen(s2);
 int s3_length = s1_length + s2_length + 1;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s1 == "";
 char* s3 = (char*)malloc(s3_length);
 if (s3 == NULL)
 return NULL;
@@ -19,6 +23,7 @@ s3[i] = s1[i];
 for ( i = 0; i < s2_length;i++)
 s3[s1_length + i] = s2[i];
 s3[i] = '\0';
+return s3;
 }
 
 
