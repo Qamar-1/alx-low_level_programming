@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
  *str_concat - Concatenates two strings.
  *@s1: The first input string.
