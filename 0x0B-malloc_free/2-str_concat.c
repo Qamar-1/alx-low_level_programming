@@ -17,14 +17,14 @@ char* s3 = (char*)malloc(s3_length);
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
-s1 = "";
+s2 = "";
 if (s3 == NULL)
 return NULL;
 for (i = 0; i < s1_length; i++)
 s3[i] = s1[i];
 for ( i = 0; i < s2_length;i++)
 s3[s1_length + i] = s2[i];
-s3[i] = '\0';
+s3[s1_length + i] = '\0';
 return s3;
 }
 
