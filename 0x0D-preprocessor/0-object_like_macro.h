@@ -1,12 +1,5 @@
-#ifndef 0-object_like_macro.h
-#define 0-object_like_macro.h
-
-/*
- * File: 0-object_like_macro.h
- * Author: Qamar
- * Description: Header file defining the SIZE macro
- */
-
+#ifndef object_like_macro.h
+#define object_like_macro.h
 /*
  * SIZE - A macro for the token 1024
  *
