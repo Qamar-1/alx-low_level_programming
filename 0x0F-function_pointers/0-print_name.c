@@ -8,6 +8,6 @@
 void print_name(char *name, void (*f)(char *))
 {
 /*checks for NULL pointers*/
-if (name != NULL & f != NULL)
+if (name != NULL && f != NULL)
 f(name);
 }
