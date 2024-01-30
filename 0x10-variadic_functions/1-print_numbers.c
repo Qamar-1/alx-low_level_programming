@@ -32,7 +32,6 @@ else
 printf("%d%s ", value, separator);
 }
 }
-va_end(alx);
-
 printf("\n");
+va_end(alx);
 }
