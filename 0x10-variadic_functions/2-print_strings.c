@@ -34,6 +34,9 @@ else
 if (string == NULL)
 printf("(nil)");
 else
+if (i == (n-1))
+printf("%s", string);
+else
 printf("%s%s", string, separator);
 }
 printf("\n");
