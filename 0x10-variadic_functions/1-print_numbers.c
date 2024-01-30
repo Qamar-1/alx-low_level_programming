@@ -27,9 +27,9 @@ printf("%d",value);
 else 
 {
 if (i == (n-1))
-printf("%d ",value);
+printf("%d",value);
 else
-printf("%d%s ", value, separator);
+printf("%d%s", value, separator);
 }
 }
 printf("\n");
