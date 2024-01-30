@@ -29,7 +29,7 @@ else
 if (i == (n-1))
 printf("%d",value);
 else
-printf("%d%s", value, separator);
+printf("%d%s",value,separator);
 }
 }
 printf("\n");
