@@ -23,7 +23,7 @@ for (i = 0; i < n; i++)
 {
 value = va_arg(alx,int);
 if (separator == NULL)
-printf("%d ",value);
+printf("%d",value);
 else 
 {
 if (i == (n-1))
